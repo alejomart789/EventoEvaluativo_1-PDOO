@@ -49,3 +49,16 @@ print(carro_clonado1)
 
 print(carro2)
 print(carro_clonado2)
+
+"""
+En este ejemplo, la clase Carro representa un carro y la clase FabricaCarros es el prototipo 
+que se encarga de crear y almacenar los diferentes tipos de carros. La implementación del patrón Prototype 
+se hace en el método clone de la clase Carro, que se encarga de crear una copia profunda del objeto carro.
+
+Luego, se puede utilizar la fábrica de carros para crear clones de los diferentes tipos de carros con el 
+método obtener_carro. La fábrica de carros utiliza el método clone de la clase Carro para crear una copia 
+profunda del objeto carro y así obtener un nuevo objeto con los mismos atributos que el objeto original.
+
+De esta manera, se pueden crear diferentes tipos de carros en la fábrica de carros y clonarlos para 
+obtener nuevos objetos con los mismos atributos que los objetos originales.
+"""

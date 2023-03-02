@@ -38,3 +38,13 @@ hamburguesa2 = hamburgueseria1.crear_hamburguesa("Hamburguesa vegana", ["Tofu, l
 
 # Listamos las hamburguesas
 print(hamburgueseria2.listar_hamburguesas())
+
+
+"""
+En este ejemplo, la variable de clase instancia de la clase Hamburgueseria se 
+utiliza para almacenar la única instancia de la clase. Si la variable instancia es None,
+se crea una nueva instancia de la clase y se almacena en la variable instancia. 
+Si la variable instancia ya tiene una instancia de la clase, se devuelve esta instancia 
+en lugar de crear una nueva. De esta manera, se asegura que solo exista una única instancia de 
+la clase Hamburgueseria en toda la aplicación.
+"""
